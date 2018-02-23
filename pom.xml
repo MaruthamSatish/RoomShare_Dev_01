@@ -80,10 +80,18 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				
 			</plugin>
+			<plugin>
+		        <groupId>org.cloudfoundry</groupId>
+		        <artifactId>cf-maven-plugin</artifactId>
+		        <version>1.0.4</version>
+		        <configuration>
+      			<server>springBootPetClinic_instance</server>
+      			<target>http://api.cloudfoundry.com</target>
+  </configuration>
+   		 	</plugin>
 			
-<plugin>
+	<plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
    
