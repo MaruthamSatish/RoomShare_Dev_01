@@ -1,6 +1,6 @@
+---
 applications:
-- name: RoomShare
+- name: Room_Share
   memory: 768M
   instances: 1
   random-route: true
-  path: F://springbootwebapp-master/springbootwebapp-master/target/
