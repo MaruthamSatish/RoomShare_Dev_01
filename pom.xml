@@ -73,6 +73,11 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cloud-connectors</artifactId>
+		</dependency>
+
 	</dependencies>
 	
 	<build>
@@ -87,7 +92,9 @@
 		        <version>1.0.4</version>
 		        <configuration>
       			<server>springBootPetClinic_instance</server>
-      			<target>http://api.cloudfoundry.com</target>
+      			<target>SpringBoot_Pivot_Cloud</target>
+      			<url>springBoot.cloud.com</url>
+      			<memory>500</memory>
   </configuration>
    		 	</plugin>
 			
