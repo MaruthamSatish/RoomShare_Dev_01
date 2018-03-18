@@ -2,9 +2,8 @@
 applications:
 - name: SpringBoot_Pivotal_Cloud
   memory: 1024M
-  buildpack: java_buildpack
-  path: target\spring-boot-web-0.0.1-SNAPSHOT.war
-  routes:
-    - route: SpringBoot_Pivotal_Cloud.cfapps.io
+  buildpack: buildpack_URL
+  path: target\spring-boot.war
+ 
   
   
