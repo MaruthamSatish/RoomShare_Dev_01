@@ -1,6 +1,7 @@
 ---
 applications:
-- name: Room_Share
-  memory: 768M
-  instances: 1
-  random-route: true
+- name: SpringBoot_Pivotal_Cloud
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+  - route: SpringBoot_Pivotal_Cloud.cfapps.io
