@@ -2,9 +2,8 @@
 applications:
 - name: SpringBoot_Pivotal_Cloud
   memory: 1024M
-  
-  
   random-route: true
+  instances: 1
 
   
     
