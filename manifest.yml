@@ -3,5 +3,3 @@ applications:
 - name: SpringBoot_Pivotal_Cloud
   memory: 1024M
   buildpack: java_buildpack
-  routes:
-  - route: SpringBoot_Pivotal_Cloud.cfapps.io
