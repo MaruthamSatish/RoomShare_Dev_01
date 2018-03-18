@@ -3,7 +3,7 @@ applications:
 - name: SpringBoot_Pivotal_Cloud
   memory: 1024M
   buildpack: java_buildpack
-  path: target\spring-boot.war
+  path: \SpringBoot_Pivot_Deploy\spring-boot.war
   
     
   
