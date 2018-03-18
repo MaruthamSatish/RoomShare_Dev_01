@@ -4,5 +4,5 @@ applications:
   memory: 1024M
   buildpack: java_buildpack
   random-route: true
-  path: target/spring-boot-web-0.0.1-SNAPSHOT.war
+  path: target\spring-boot-web-0.0.1-SNAPSHOT.war
  
